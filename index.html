@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="login-page" class="container">
+        <h1>Welcome to LearnHub</h1>
+        <form id="login-form">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Dashboard (Hidden Initially) -->
+    <div id="dashboard" class="hidden">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>My Progress</h2>
+            <div id="progress-section">
+                <p>Completed Lessons: <span id="completed-lessons">2</span></p>
+                <p>Quiz Score: <span id="quiz-score">30</span>/100</p>
+                <p>TOUCH THE BELOW YOUTUBE LINK AND WATCH THE VIDEO</p>
+                <p>https://youtu.be/CaZRQnM-_7c?si=_wyzwCfGmxUUBtSP</p>
+                <Link href>="//youtu.be/CaZRQnM-_7c?si=_wyzwCfGmxUUBtSP"</Link>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="https://youtu.be/CaZRQnM-_7c?si=_wyzwCfGmxUUBtSP">
+                <!-- YouTube Video Embed -->
+                <iframe 
+                    id="https://youtu.be/CaZRQnM-_7c?si=_wyzwCfGmxUUBtSP" 
+                    width="100%" 
+                    height="400" 
+                    src="https://youtu.be/CaZRQnM-_7c?si=_wyzwCfGmxUUBtSP" 
+                    title="YouTube Video Player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Quiz Section -->
+<div class="quiz-container hidden" id="quiz-container">
+    <h3>Quiz Time!</h3>
+    <div id="question"></div>
+    <div id="options"></div>
+    <button id="submit-answer">Start Quiz</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
